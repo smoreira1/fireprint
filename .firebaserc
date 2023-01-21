@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fireprint-trunk": {
+      "hosting": {
+        "fireprint": [
+          "fireprint-trunk"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fireprint-trunk"
+  }
+}

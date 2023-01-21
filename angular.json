@@ -103,8 +103,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "fireprint:build:production",
+            "firebaseProject": "fireprint-trunk",
+            "firebaseHostingSite": "fireprint-trunk"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b7f9f013-51fa-4e18-be82-84098a0e02b2"
   }
 }
